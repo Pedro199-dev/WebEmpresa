@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background: linear-gradient(rgba(0, 87, 26, 0.568), rgba(47, 23, 15, 0.65)), url("../img/F1.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -80,7 +80,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(28, 122, 9, 0.9);
   font-family: 'Raleway';
 }
 
@@ -150,7 +150,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgb(88 24 75 / 63%);
 }
 
 .cta .cta-inner {
@@ -237,7 +237,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: #000000;
 }
 
 .text-primary {
@@ -253,7 +253,7 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
+  background-color: #1b1b1b;
   border-color: #e6a756;
 }
 
