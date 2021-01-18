@@ -16,7 +16,7 @@ def contact(request):
             content = request.POST.get('content', '') 
             # Enviar correo y redireccionar
             email = EmailMessage(
-                "La Caffetiera: Nuevo Mensaje de contacto",
+                "Oficinas: Nuevo Mensaje de contacto",
                 "De {} <{}>\n\nEscribio:\n\n{}".format(name, email, content),
                 "no-contestar@inbox.mailtrap.io",
                 ["caballo78dt@gmail.com"],
