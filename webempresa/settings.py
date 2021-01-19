@@ -148,13 +148,11 @@ CKEDITOR_CONFIGS = {
     }
 }
 
-# Email 
-EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS', 'True')  
-EMAIL_HOST = os.environ.get('smtp.gmail.com')
-EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER', 'caballo78dt@gmail.com') 
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', 'caballo1999') 
-EMAIL_PORT = os.environ.get('587')   
-
+# Email config
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_HOST_USER = '80bcc92670ab94'
+EMAIL_HOST_PASSWORD = '259fba5ec4bb60'
+EMAIL_PORT = '2525'
 
 # Heroku: Update database configuration from $DATABASE_URL.
 import dj_database_url
