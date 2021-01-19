@@ -150,8 +150,8 @@ CKEDITOR_CONFIGS = {
 
 # Email config
 EMAIL_HOST = 'smtp.mailtrap.io'
-EMAIL_HOST_USER = '80bcc92670ab94'
-EMAIL_HOST_PASSWORD = '259fba5ec4bb60'
+EMAIL_HOST_USER = '19a653c034db99'
+EMAIL_HOST_PASSWORD = 'ceb20b6b7d5425'
 EMAIL_PORT = '2525'
 
 # Heroku: Update database configuration from $DATABASE_URL.
